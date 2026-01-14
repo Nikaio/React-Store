@@ -10,7 +10,7 @@ export default function ProductCard ({ product }) {
 
     const handleAdd = () => {
         toast.current.show({
-            severity: "sucess",
+            severity: "success",
             summary: "Produto selecionado",
             detail: product.title,
             life: 2500
